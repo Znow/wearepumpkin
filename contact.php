@@ -26,5 +26,5 @@
 			</form>
 		</div>
 	</div>
-	<a href="javascript:void(0)" onClick="goToByScroll('content-7');"><div class="arrow_right"></div></a>
+	<a href="javascript:void(0)" onClick="goToByScroll('content-6');"><div class="arrow_left"></div></a>
 </div>

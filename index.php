@@ -11,6 +11,8 @@
 
 		<?php include('home.php'); ?>
 
+		<?php include('about.php'); ?>
+
 		<?php include('sustainability.php'); ?>
 
 		<?php include('architecture.php'); ?>
@@ -24,7 +26,7 @@
 		<div id="pumpkin_medium"></div>
 
 		<script type="text/javascript">
-			function goToByScroll(id){
+			function goToByScroll(id) {
 				$('html,body').animate({
 					scrollLeft: $("#"+id).offset().left
 				}, 600);
