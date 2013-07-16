@@ -21,19 +21,44 @@ html{
 	src: url('Sketch_Block.ttf');
 }
 
-
+table#contact {
+	font-family: sketch_block;
+	font-size: 10pt;
+	margin: 0 10px 10px 0;
+}
+table#contact tr td {
+	padding-bottom: 10px;
+}
+table#contact tr td:first-child {
+	padding-right: 10px;
+	text-align: right;
+	vertical-align: text-top;
+}
+table#contact #input_button {
+	font-family: sketch_block;
+	font-size: 15pt;
+	color: #000;
+	float: right;
+	outline: 0;
+	border: 0px;
+	background: none;
+}
+table#contact #send_button {
+	margin-top: -2px;
+	width: 400px;
+	height: 40px;
+	background: #b4e4f4;
+}
 .main-text-1{ 
 	font-size:20px; 
+	width: 30px;
 }
-
 .main-text-2{ 
 	font-size:20px;
 }
-
 .main-text-3{ 
 	font-size:20px;
 }
-
 .main-text-4{ 
 	font-size:20px;
 }
@@ -63,32 +88,19 @@ html{
 .input_textarea {
 	background: #b4e4f4;
 	border: 0px;
-	width:400px !important;
-	min-width:400px !important;
-	max-width:400px !important;
+	width:396px !important;
+	min-width:396px !important;
+	max-width:396px !important;
 	height:200px !important;
 	min-height:200px !important;
 	max-height:200px !important;
-}
-#send_button {
-	margin-top: -1px;
-	width: 400px;
-	height: 40px;
-	background: #b4e4f4;
-}
-#input_button {
-	float: right;
-	outline: 0;
-	border: 0px;
-	background: none;
-	font-size: 20px;
 }
 #clouds {
 	background: url(../images/clouds.png) no-repeat;
 	width: 70%;
 	height: 24%;
 	background-size: 100% auto;
-	margin-top: 80px;
+	margin-top: 4%;
 	margin-left:15%;
 }
 #logo_enter {
@@ -116,7 +128,7 @@ html{
 	width: 15%;
 	height: 20%;
 	background-size: 60% auto;
-	margin: 100px auto 0 auto;
+	margin: 6% auto 0 auto;
 }
 .pumpkin_small {
 	background: url(../images/pumpkin.png) no-repeat;
@@ -161,7 +173,9 @@ html{
 	height:100%;   
 	float:left;  
 }
-
+#content-1 .main {
+	width: 30px;
+}
 #content-2 { 
 	position:absolute; 
 	z-index:1; 
