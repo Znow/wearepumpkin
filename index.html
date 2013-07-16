@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>We Are Pumpkin</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<ul class="nav">
+			<li>
+				<a href="javascript:void(0)" onClick="goToByScroll('content-1');">Home</a>
+			</li>
+			<li><div class="pumpkin_small"></div></li>
+			<li>
+				<a href="javascript:void(0)" onClick="goToByScroll('content-2');">About</a>
+			</li>
+			<li><div class="pumpkin_small"></div></li>
+			<li>
+				<a href="javascript:void(0)" onClick="goToByScroll('content-3');">Sustainability</a>
+			</li>
+			<li><div class="pumpkin_small"></div></li>
+			<li>
+				<a href="javascript:void(0)" onClick="goToByScroll('content-4');">Architecture</a>
+			</li>
+			<li><div class="pumpkin_small"></div></li>
+			<li>
+				<a href="javascript:void(0)" onClick="goToByScroll('content-5');">Interiors</a>
+			</li>
+			<li><div class="pumpkin_small"></div></li>
+			<li>
+				<a href="javascript:void(0)" onClick="goToByScroll('content-6');">Events</a>
+			</li>
+			<li><div class="pumpkin_small"></div></li>
+			<li>
+				<a href="javascript:void(0)" onClick="goToByScroll('content-7');">Contact</a>
+			</li>
+		</ul>
+
+		<div  id="content-1">
+			<div id="logo" class="logo"></div>
+			<div id="clouds"></div>
+			<div class="main">
+				<h1 class="main-text-1">dsads</h1>
+			</div>
+			<div class="arrow_right"></div>
+		</div>
+
+		<div  id="content-2">
+			<div class="main">
+				<h1 class="main-text-2"></h1>
+			</div>
+		</div>
+
+		<div  id="content-3">
+			<div class="main">
+				<h1 class="main-text-3"></h1>
+			</div>
+		</div>
+
+		<div  id="content-4">
+			<div class="main">
+				<h1 class="main-text-4"></h1>
+			</div>
+		</div>
+
+		<div  id="content-5">
+			<div class="main">
+				<h1 class="main-text-5"></h1>
+			</div>
+		</div>
+
+		<div  id="content-6">
+			<div class="main">
+				<h1 class="main-text-6"></h1>
+			</div>
+		</div>
+
+		<div  id="content-7">
+			<div class="main">
+				<div class="main-text-7">
+					<table>
+						<tr>
+							<td>Get in<br/>Touch</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Email Address</td>
+							<td><input type="text" class="input_text" /></td>
+						</tr>
+						<tr>
+							<td>Name</td>
+							<td><input type="text" class="input_text" /></td>
+						</tr>
+						<tr>
+							<td>Message</td>
+							<td>
+								<textarea class="input_textarea"></textarea>
+								<div id="send_button"><input type="submit" id="input_button" value="SEND" /></div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<div id="pumpkin_medium"></div>
+
+		<script type="text/javascript">
+			function goToByScroll(id){
+				$('html,body').animate({
+					scrollLeft: $("#"+id).offset().left
+				}, 600);
+			};
+		</script>
+	</body>
+</html>
